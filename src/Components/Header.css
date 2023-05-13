@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    height: 72px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left, .header-right {
+    display: flex;
+}
+.header-left > div, .header-right > div{
+    margin: 30px;
+}
+.header-right > div > button{
+    border: none;
+}
+.header-right > div:last-child{
+    margin-right: 100px;
+}
+.header-left > div > img{
+    margin-left: 35px;
+}
+.join-btn{
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+}
+#courses, #programs{
+    border: none;
+}
+
+
