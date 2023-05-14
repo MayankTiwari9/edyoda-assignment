@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../Assets/EDYODA.png";
+import logo from "../Assets/EDYODA.svg";
 import search from "../Assets/Vector.png";
 import "./Header.css";
 
@@ -26,7 +26,7 @@ const Header = () => {
                     <img src={search} alt="search" />
                 </div>
                 <div>
-                    <button>Log in</button>
+                    <button className='login-btn'>Log in</button>
                 </div>
                 <div>
                     <button className='join-btn'>JOIN NOW</button>
